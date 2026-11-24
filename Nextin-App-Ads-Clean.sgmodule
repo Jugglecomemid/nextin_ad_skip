@@ -2552,16 +2552,6 @@ DOMAIN-SUFFIX,gt.yy.com,REJECT
 # > 真不卡
 DOMAIN-SUFFIX,ttayy.cn,REJECT
 DOMAIN-SUFFIX,zhengxiaoliu.top,REJECT
-# hostname = api.zhihu.com, www.zhihu.com, appcloud2.zhihu.com, m-cloud.zhihu.com, zhuanlan.zhihu.com, link.zhihu.com
-USER-AGENT,"AVOS*",REJECT
-DOMAIN,appcloud.zhihu.com,REJECT
-DOMAIN,appcloud2.in.zhihu.com,REJECT
-DOMAIN,mqtt.zhihu.com,REJECT
-DOMAIN,sugar.zhihu.com,REJECT
-DOMAIN,crash2.zhihu.com,REJECT
-DOMAIN,118.89.204.198,REJECT
-IP-CIDR,118.89.204.198/32,REJECT
-IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,REJECT
 # > 中关村
 DOMAIN-SUFFIX,apppv.zol.com.cn,REJECT
 DOMAIN-SUFFIX,cpro.zol.com.cn,REJECT
